@@ -1,0 +1,36 @@
+# Files that should be ignored in a Flutter project
+
+# User's existing files
+/.gradle
+/captures/
+/gradlew
+/gradlew.bat
+/local.properties
+/GeneratedPluginRegistrant.java
+/android/.gradle
+key.properties
+*/.keystore
+*/.jks
+
+# Flutter-specific build files
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.vscode/
+
+# Build files
+/build/
+/android/app/src/main/assets/flutter_assets/
+/ios/.symlinks/
+/ios/Flutter/
+/ios/.idea/
+
+# Editor and IDE files
+.idea/
+.DS_Store
+
+# For large emulator files that should never be committed
+android/avd/
+android/.android/avd/
